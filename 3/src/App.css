@@ -1,0 +1,124 @@
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(/fonts/Poppins-Regular.ttf)
+}
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(/fonts/Poppins-Medium.ttf)
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(/fonts/Poppins-Bold.ttf)
+}
+
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url(/fonts/Poppins-SemiBold.ttf)
+}
+
+body {
+    margin: 0;
+}
+
+main {
+  text-align: center;
+  vertical-align: center;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  flex-wrap: wrap;
+  background: linear-gradient(45deg,#00dbde,#fc00ff);
+}
+
+textarea:focus,input:focus {
+    border-color: transparent!important
+}
+
+input:focus::-webkit-input-placeholder {
+    color: transparent
+}
+
+input:focus:-moz-placeholder {
+    color: transparent
+}
+
+input:focus::-moz-placeholder {
+    color: transparent
+}
+
+input:focus:-ms-input-placeholder {
+    color: transparent
+}
+
+textarea:focus::-webkit-input-placeholder {
+    color: transparent
+}
+
+textarea:focus:-moz-placeholder {
+    color: transparent
+}
+
+textarea:focus::-moz-placeholder {
+    color: transparent
+}
+
+textarea:focus:-ms-input-placeholder {
+    color: transparent
+}
+
+input::-webkit-input-placeholder {
+    color: #adadad
+}
+
+input:-moz-placeholder {
+    color: #adadad
+}
+
+input::-moz-placeholder {
+    color: #adadad
+}
+
+input:-ms-input-placeholder {
+    color: #adadad
+}
+
+textarea::-webkit-input-placeholder {
+    color: #adadad
+}
+
+textarea:-moz-placeholder {
+    color: #adadad
+}
+
+textarea::-moz-placeholder {
+    color: #adadad
+}
+
+textarea:-ms-input-placeholder {
+    color: #adadad
+}
+
+input:focus+span::before,
+textarea:focus+span::before {
+    width: 100%
+}
+
+input.has--value+span::before,
+textarea.has--value+span::before{
+    width: 100%
+}
+
+button {
+    outline: none!important;
+    border: none;
+    background: 0 0
+}
+
+button:hover {
+    cursor: pointer
+}
