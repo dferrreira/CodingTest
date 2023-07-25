@@ -1,0 +1,5 @@
+This is a test file for the word count program.
+Let's see if he can count the words correctly.
+Words are sequences of characters that are separated by spaces.
+The program must disregard whitespace, punctuation and special characters.
+Word test: word1, word2, word3.
